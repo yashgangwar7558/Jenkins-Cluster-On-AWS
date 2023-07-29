@@ -1,0 +1,35 @@
+# Terraform state and lock files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock
+
+# Terraform .terraform directory
+.terraform/
+
+# Crash log files
+crash.log
+
+# Local tfvars files (uncomment the next line if you use them)
+# *.tfvars
+
+# Log files
+*.log
+
+# Local tfstate files (uncomment the next line if you use them)
+# terraform.tfstate
+# terraform.tfstate.backup
+
+# .terraformrc file
+.terraformrc
+
+# Override.tf file
+override.tf
+
+# .tfplan files
+*.tfplan
+
+# .tfvars files that are automatically generated (e.g., .auto.tfvars)
+*.auto.tfvars
+*.auto.tfvars.json
+
+
